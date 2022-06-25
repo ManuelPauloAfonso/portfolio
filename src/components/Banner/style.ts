@@ -6,11 +6,13 @@ export const Container = styled.section`
 
 
 display: flex;
-justify-content: space-between;
-padding-left: 20rem;
-padding-top: 14rem;
+margin-left: 20rem;
+margin-top: 14rem;
+padding: 1rem;
 
-
+button{
+    display: none;
+}
 h1{
     color: white;
     font-weight: 600;
@@ -40,6 +42,13 @@ p{
     font-size: 0.875rem;
     line-height: 18px;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+
+    .one{
+        width: 30px;
+        height: 14px;
+    }
 
 }
 .Container{
@@ -49,6 +58,40 @@ p{
     }
     h3{
         margin-top: 1rem;
+    }
+}
+
+@media (max-width: 999px){
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10rem;
+
+    button{
+        display: block;
+        margin: 0 auto;
+        margin-top: 2rem;
+        width: 15rem;
+        height: 2.50rem;
+        border: none;
+        border-radius: 6px;
+        border: 1px solid #687076;
+        background: #1C274F; 
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+        cursor: pointer;
+
+        &:hover{
+            opacity: 0.7;
+            
+        }
+    }
+    .p{
+        display: none;
+
+        p{
+            display: none;
+        }
     }
 }
 `

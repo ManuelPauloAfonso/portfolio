@@ -12,11 +12,21 @@ padding: 1rem;
 nav{
     display: flex;
     align-items: center;
+    a{
+        color: white;
+    }
 }
 img{
     margin-left: 0.25rem;
-
-
+    display: flex;
+    align-items: center;
+}
+.one{
+    margin-right: 1rem;
+}
+.one1{
+    display: flex;
+    align-items: center;
 }
 
 
