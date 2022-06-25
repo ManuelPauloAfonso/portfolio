@@ -11,6 +11,15 @@ export default function Menu(){
     return(
         <Container>
             <a href=""><img src={Logo} alt="" /></a>
+
+
+
+
+            <a className="one1" href="">
+                       <MdOutlineDarkMode
+                        fontSize={23}
+                       />
+            </a>
             <nav>
                     
                     <a className="one" href="">
@@ -21,13 +30,7 @@ export default function Menu(){
                     </a>
                     <a className="one" href="">
                         <img src={Link} alt="" />
-                    </a>
-                    <a className="one1" href="">
-                       <MdOutlineDarkMode
-                        fontSize={24}
-                       />
-                    </a>
-
+                    </a>      
             </nav>
         </Container>
     )

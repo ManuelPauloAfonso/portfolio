@@ -27,6 +27,13 @@ img{
 .one1{
     display: flex;
     align-items: center;
+
+    svg{
+        display: flex;
+        align-items: center;
+        margin-top: 0.1rem;
+        color: white;
+    }
 }
 
 
