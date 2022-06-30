@@ -1,5 +1,5 @@
-import Banner from "./components/Banner"
-import Menu from "./components/Menu"
+import Project from "./components/Project"
+import Home from "./pages/Home"
 import { GlobalStyle } from "./styles/GlobalStyle"
 
 
@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Menu />
-      <Banner />
+      <Home />
+      <Project />
     </>
   )
 }

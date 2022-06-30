@@ -1,20 +1,24 @@
 import { Container } from "./style"
-import Press from '../../Assets/kbd.svg'
-import Press1 from '../../Assets/kbd (1).svg'
-
-
+import vector1 from '../../Assets/Vector (1).svg'
+import vector2 from '../../Assets/Vector (2).svg'
+import vector3 from '../../Assets/Vector.svg'
 
 export default function Banner(){
     return(
         <Container>
-                <div className="Container">
-                    <h1>Manuel Afonso</h1>
-                    <h3>Front-end Developer at RBR Digital</h3>
-                    <p>Front-end Developer who loves web technologies and that puts love in everything he does</p>
-                    <p className="p">Pressione    <img className="one" src={Press}  alt="" /> <img className="one" src={Press1} alt="" /> para navegar </p>
-                    <button>Toque para Navegar</button>
-                </div>
+            <div className="section-container">
+                    <div>
+                        <h1>Desenvolvedor Front End</h1>
+                        <p>Bem-vindo(a) ao meu portfólio, conheça alguns projetos desenvolvidos.</p>
+                        <button>Portifólio</button>
+                    </div>  
+                    <div className="container1">
+                        <img src={vector1} alt="" />
+                        <img src={vector2} alt="" />
+                        <img src={vector3} alt="" />
 
+                    </div>
+            </div>
         </Container>
     )
 }

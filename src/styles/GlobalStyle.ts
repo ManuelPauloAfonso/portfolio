@@ -2,16 +2,21 @@ import { createGlobalStyle  } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
-font-family: 'Outfit', sans-serif;
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
 }
 body{
-    background: #151718;
+    background: #000000;
+    font-family: 'Poppins', sans-serif;
 }
+li{
+    list-style: none;
+}
+
 
 
 `
