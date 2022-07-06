@@ -10,11 +10,11 @@ export default function Footer(){
                 <h2>Contactos</h2>
                 <div className='container_footer'>
                     <ul>
-                        <li><img src={vector1} alt="" /></li>
+                        <li><a href="https://github.com/ManuelPauloAfonso"><img src={vector1} alt="" /></a></li>
                          <span>github</span>
-                        <li><img src={vector2} alt="" /></li>
+                        <li> <a href="http://linkedin.com/in/manuel-afonso-a868b1201"> <img src={vector2} alt="" /></a></li>
                         <span>Linkedin</span>
-                        <li><img src={vector3} alt="" /></li>
+                        <li> <a href="manuelpauloafonso29@gmail.com"><img src={vector3} alt="" /></a></li>
                         <span>Email</span>
                     </ul>
                 </div>

@@ -19,6 +19,10 @@ body{
 li{
     list-style: none;
 }
+a{
+    list-style: none;
+    text-decoration: none;
+}
 
 
 

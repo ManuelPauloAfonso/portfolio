@@ -15,10 +15,9 @@ export default function Banner(){
                         </div>
                     </div>  
                     <div className="container1">
-                        <img src={vector1} alt="" />
-                        <img src={vector2} alt="" />
-                        <img src={vector3} alt="" />
-
+                        <a href="https://github.com/ManuelPauloAfonso"><img src={vector1} alt="" /></a>
+                        <a href="http://linkedin.com/in/manuel-afonso-a868b1201"><img src={vector2} alt="" /></a>
+                        <a href="manuelpauloafonso29@gmail.com"><img src={vector3} alt="" /></a>
                     </div>
             </div>
         </Container>

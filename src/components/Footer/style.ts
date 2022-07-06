@@ -13,6 +13,15 @@ h2{
     color: #70E000;
 
 }
+img{
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover{
+        background-color: #70E000;
+
+    }
+}
 
 .container_footer{
     display: flex;

@@ -21,7 +21,7 @@ export default function About(){
             <h1>Sobre</h1>
             <div className="about-container">
                 <div className="text-about">
-                    <p>Olá !!! :) <br /> Sou a Sara Romão, desenvolvedora Front-end, sempre tive interesse <br /> pela área de TI por possibilitar o desenvolvimento de soluções para <br /> diferentes setores.
+                    <p>Olá !!! :) <br /> Sou o Manuel Afonso, desenvolvedor Front-end, sempre tive interesse <br /> pela área de TI por possibilitar o desenvolvimento de soluções para <br /> diferentes setores.
                     No front-end gosto de elaborar e construír sistemas que resolvam <br /> problemas ou que melhore algum processo para os usuários, <br /> mantendo uma interface funcional e agradável.</p>
                 </div>
                 <div>

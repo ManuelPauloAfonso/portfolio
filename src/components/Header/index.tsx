@@ -9,10 +9,10 @@ export default function Header(){
             <img src={Logo} alt="" />
             <nav>
                 <ul className="ul">
-                    <li>Home</li>
-                    <li>Sobre</li>
-                    <li>Portfolio</li>
-                    <li>Contactos</li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contactos</a></li>
                 </ul>
                 <ul className="ulone">
                     <li><img src={Menu} alt="" /></li>

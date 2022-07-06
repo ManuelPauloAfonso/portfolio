@@ -47,6 +47,13 @@ p{
         color: white;
         line-height: 19px;
         font-weight: 700;
+        
+        &:hover{
+
+            background: rgb(112, 224, 0);
+
+
+        }
 
 
     }
@@ -60,6 +67,13 @@ p{
         border: 2px solid #70E000;
         background: #1A1F27;
         color: white;
+        transition: 0.5s;
+        cursor: pointer;
+
+        &:hover{
+            background: rgb(112, 224, 0);
+
+        }
 
 
 

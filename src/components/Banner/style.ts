@@ -11,6 +11,14 @@ margin-top: 11.188rem;
     max-width: 68.688rem;
     margin: 0 auto;
     
+    img{
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+            background-color: #70E000;
+        }
+    }
 
     h2{
         font-weight: 700;
@@ -25,6 +33,12 @@ margin-top: 11.188rem;
         border-radius: 10px;
         background: black;
         margin-top: 2rem;
+        transition: 0.5s;
+        cursor: pointer;
+
+        &:hover{
+            opacity: 0.3;
+        }
     }
 }
 .container1{
