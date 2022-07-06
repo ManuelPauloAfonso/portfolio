@@ -10,13 +10,13 @@ margin-top: 11.188rem;
     justify-content: space-between;
     max-width: 68.688rem;
     margin: 0 auto;
-    text-align: center;
     
 
     h2{
         font-weight: 700;
         line-height: 4.688rem;
         color: #70E000;
+        font-size: 3rem;
     }
     button{
         width: 11.063rem;
@@ -36,6 +36,20 @@ margin-top: 11.188rem;
 
     .container1{
         display: none;
+    }
+    .section-container{
+        display: flex;
+        justify-content: center;
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+        }
     }
     
 }

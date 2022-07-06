@@ -10,7 +10,9 @@ export default function Banner(){
                     <div>
                         <h2>Desenvolvedor Front End</h2>
                         <p>Bem-vindo(a) ao meu portfólio, conheça alguns projetos desenvolvidos.</p>
-                        <button>Portifólio</button>
+                        <div className="btn">
+                            <button className="">Portifólio</button>
+                        </div>
                     </div>  
                     <div className="container1">
                         <img src={vector1} alt="" />
