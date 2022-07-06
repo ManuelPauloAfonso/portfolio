@@ -69,8 +69,9 @@ p{
 }
 @media (max-width: 999px) {
     .containerimg_project{
+        
         img{
-            width: 24rem;
+            width: 20rem;
         }
     }
     

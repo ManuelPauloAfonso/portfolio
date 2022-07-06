@@ -8,7 +8,7 @@ export default function Banner(){
         <Container>
             <div className="section-container">
                     <div>
-                        <h1>Desenvolvedor Front End</h1>
+                        <h2>Desenvolvedor Front End</h2>
                         <p>Bem-vindo(a) ao meu portfólio, conheça alguns projetos desenvolvidos.</p>
                         <button>Portifólio</button>
                     </div>  

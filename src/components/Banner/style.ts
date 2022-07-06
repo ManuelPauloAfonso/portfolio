@@ -10,10 +10,10 @@ margin-top: 11.188rem;
     justify-content: space-between;
     max-width: 68.688rem;
     margin: 0 auto;
+    text-align: center;
     
 
-    h1{
-        font-size: 3.125rem;
+    h2{
         font-weight: 700;
         line-height: 4.688rem;
         color: #70E000;
