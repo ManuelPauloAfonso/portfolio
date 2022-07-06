@@ -50,7 +50,8 @@ p{
         
         &:hover{
 
-            background: rgb(112, 224, 0);
+            background: white;
+            color: black;
 
 
         }

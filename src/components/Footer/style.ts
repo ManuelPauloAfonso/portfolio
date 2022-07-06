@@ -18,7 +18,8 @@ img{
     transition: 0.5s;
 
     &:hover{
-        background-color: #70E000;
+        filter: brightness(2.5)
+
 
     }
 }
