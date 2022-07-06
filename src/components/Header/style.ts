@@ -16,5 +16,21 @@ nav{
         gap: 2.625rem;
     }
 }
+.ulone{
+    display: none;
+}
+
+@media (max-width: 999px) {
+
+
+    .ul{
+        display: none;
+
+    }
+    .ulone{
+        display: block;
+    }
+    
+}
 
 `

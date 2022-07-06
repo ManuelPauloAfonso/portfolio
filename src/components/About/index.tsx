@@ -21,11 +21,11 @@ export default function About(){
             <h1>Sobre</h1>
             <div className="about-container">
                 <div className="text-about">
-                    <p>Olá !!! :) <br /> ultricies blandit nibh a scelerisque. Donec eget laoreet risus, vel congue metus. Etiam at condimentum turpis. </p>
-                    <p>Nulla risus enim, finibus non dictum lobortis, ullamcorper et erat. Aenean feugiat leo vel nisl dignissim, a venenatis augue dapibus. Vivamus sit amet dignissim </p>
+                    <p>Olá !!! :) <br /> Sou a Sara Romão, desenvolvedora Front-end, sempre tive interesse <br /> pela área de TI por possibilitar o desenvolvimento de soluções para <br /> diferentes setores.
+                    No front-end gosto de elaborar e construír sistemas que resolvam <br /> problemas ou que melhore algum processo para os usuários, <br /> mantendo uma interface funcional e agradável.</p>
                 </div>
                 <div>
-                    <img src={Aboutt} alt="" />
+                    <img className="img1" src={Aboutt} alt="" />
                 </div>
 
             </div>

@@ -8,7 +8,7 @@ export const Container = styled.section`
 
 background: #1E1F32;
 margin-top: 16.125rem;
-height: 42rem;
+height: 48rem;
 
 h1{
     text-align: center;
@@ -31,7 +31,6 @@ h2{
 
 
 .text-about{
-    max-width: 566px;
 
 }
 .container_ferramenta{
@@ -42,6 +41,25 @@ h2{
     justify-content: center;
     gap: 3rem;
     margin-top: 2rem;
+}
+@media (max-width: 999px){
+
+    margin-top: 5rem;
+    height: 80rem;
+
+
+    .img1{
+        display: none;
+    }
+    .text-about{
+        margin-left: 10rem;
+    }
+    .about-container{
+    }
+    .container_ferramenta1{
+        flex-wrap: wrap;
+    }
+
 }
 
 

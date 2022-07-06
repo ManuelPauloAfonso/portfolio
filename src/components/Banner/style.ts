@@ -8,9 +8,9 @@ margin-top: 11.188rem;
 .section-container{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 2rem;
     max-width: 68.688rem;
     margin: 0 auto;
+    
 
     h1{
         font-size: 3.125rem;
@@ -31,6 +31,13 @@ margin-top: 11.188rem;
     display: flex;
     flex-direction: column;
     gap: 1.688rem;
+}
+@media (max-width: 999px) {
+
+    .container1{
+        display: none;
+    }
+    
 }
 
 `
